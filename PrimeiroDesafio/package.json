@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  },
+  "name": "primeirodesafio",
+  "version": "1.0.0",
+  "description": "projeto utilizando html css e javascript para concluir o primeiro desafio da residencia em software",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laurourbano/LauroOtavioUrbano-Desafios-frontend-IUUL.git"
+  },
+  "author": "Lauro Otávio Urbano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laurourbano/LauroOtavioUrbano-Desafios-frontend-IUUL/issues"
+  },
+  "homepage": "https://github.com/laurourbano/LauroOtavioUrbano-Desafios-frontend-IUUL#readme"
+}

@@ -1,0 +1,99 @@
+:root {
+  --fundo: #123;
+  --corRosa: #d1b;
+  --corFontePadrao: #fff;
+  --fontePadrao: 1rem;
+  --fonteGrande: 1.1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100%;
+  height: calc(100vh - .5rem);
+  background-color: var(--fundo);
+  color: var(--corFontePadrao);
+}
+
+.centralizar {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cabecalho {
+  font-size: var(--fonteGrande);
+  border-bottom: 1px solid #fff;
+}
+
+.cabecalho div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.linkLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkLogo h1 {
+  margin-left: 1rem;
+  color: var(--corFontePadrao);
+}
+
+.cabecalho nav a, .rodape a {
+  color: var(--corFontePadrao);
+  font-size: var(--fonteGrande);
+  padding: 15px 35px;
+}
+
+.cabecalho nav a:hover, .rodape a:hover {
+  opacity: 80%;
+  border-bottom: 1px solid #fff;
+  transition: 1s;
+}
+
+#destaque {
+  background-color: var(--corFontePadrao);
+  color: #123;
+  border-radius: 6px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoImg {
+  width: 4em;
+  height: 4em;
+  filter: opacity(80%);
+  border-radius: 10%;
+}
+
+.rodape {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid #fff;
+}
+
+.rodape i {
+  font-size: 2em;
+  color: var(--corFontePadrao);
+  margin: 1rem;
+}

@@ -1,0 +1,24 @@
+#destaque {
+    color: var(--fundo);
+    background-color:
+        var(--corTextoPadrao);
+}
+
+.logoImg {
+    width: 4em;
+    filter: brightness(150%);
+    opacity: 70%;
+}
+
+
+
+.cabecalho div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho div div a{
+    display: flex;
+    align-items: center;
+}

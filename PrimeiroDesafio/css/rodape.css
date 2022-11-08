@@ -1,0 +1,18 @@
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid #fff;
+}
+.rodape div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape div a {
+    margin: 1em;
+}

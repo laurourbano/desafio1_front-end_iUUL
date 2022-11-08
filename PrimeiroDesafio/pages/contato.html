@@ -4,8 +4,11 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Contatos</title>
+		<title>Contato</title>
 		<link rel="stylesheet" href="../css/styles.css" />
+		<link rel="stylesheet" href="../css/cabecalho.css" />
+		<link rel="stylesheet" href="../css/main.css" />
+		<link rel="stylesheet" href="../css/rodape.css" />
 		<link
 			rel="shortcut icon"
 			href="../assets/favicon/fav.jpg"
@@ -42,9 +45,9 @@
 					</a>
 				</div>
 				<nav class="linksNavegacao">
-					<a href="../index.html">HOME</a>
-					<a id="destaque" href="contatos.html">CONTATOS</a>
-					<a href="sobre.html">SOBRE</a>
+					<a class="botao" href="../index.html">HOME</a>
+					<a class="botao" id="destaque" href="contato.html">CONTATO</a>
+					<a class="botao" href="sobre.html">SOBRE</a>
 				</nav>
 			</div>
 		</header>
@@ -52,7 +55,12 @@
 		<main>
 			<div class="centralizar">
 				<aside>
-					<h2>aside</h2>
+					<h2>Contato</h2>
+					<form action="POST">
+						<input type="text" name="" id="">
+						<label for=""></label>
+						<input type="submit" class="botao" value="enviar">
+					</form>
 				</aside>
 				<section>
 					<h2>section</h2>
@@ -72,7 +80,7 @@
 			</a>
 			<a
 				title="LinkedIn"
-				ref="https://www.linkedin.com/in/laurourbano"
+				href="https://www.linkedin.com/in/laurourbano"
 				target="_blank"
 			>
 				<i class="fa fa-linkedin-square" aria-hidden="true"></i>

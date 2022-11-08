@@ -1,99 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Portifólio | Lauro</title>
-		<link rel="stylesheet" href="css/styles.css" />
-		<link rel="stylesheet" href="css/cabecalho.css" />
-		<link rel="stylesheet" href="css/main.css" />
-		<link rel="stylesheet" href="css/rodape.css" />
-		<link
-			rel="shortcut icon"
-			href="assets/favicon/fav.jpg"
-			type="image/x-icon"
-		/>
-		<script src="js/script.js" defer></script>
-		<script
-			src="https://kit.fontawesome.com/abaa35b434.js"
-			crossorigin="anonymous"
-		></script>
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-			rel="stylesheet"
-		/>
-		<meta
-			name="description"
-			content="Página criada como desafio de front-end fase de nivelamento da residência de software."
-		/>
-	</head>
 
-	<body>
-		<header class="cabecalho">
-			<div class="centralizar">
-				<div>
-					<a class="linkLogo" href="../index.html">
-						<img
-							class="logoImg"
-							src="assets/img/logo.jpg"
-							alt="logo"
-						/>
-						<h1>Portifólio | Lauro</h1>
-					</a>
-				</div>
-				<nav class="linksNavegacao">
-					<a class="botao" id="destaque" href="index.html">HOME</a>
-					<a class="botao" href="pages/contato.html">CONTATO</a>
-					<a class="botao" href="pages/sobre.html">SOBRE</a>
-				</nav>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"
+		defer></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"
+		defer></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"
+		defer></script>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Portifólio | Lauro</title>
+	<link rel="stylesheet" href="css/styles.css" />
+	<link rel="stylesheet" href="css/cabecalho.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/rodape.css" />
+	<link rel="shortcut icon" href="assets/favicon/fav.jpg" type="image/x-icon" />
+	<script src="js/script.js" defer></script>
+	<script src="https://kit.fontawesome.com/abaa35b434.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+	<meta name="description"
+		content="Página criada como desafio de front-end fase de nivelamento da residência de software." />
+</head>
+
+<body>
+	<header>
+		<div class="container-fluid navbar">
+			<div>
+				<a href="index.html">
+					<!--arrumar o tamanho da logo no css, retirando daqui-->
+					<img src="assets/img/logo.jpg" alt="logo" style="width: 100px;" />
+					<!--<h1>Portifólio | Lauro</h1>-->
+				</a>
 			</div>
-		</header>
+			<nav class="nav">
+				<ul class="nav nav-pills">
+					<li class="nav-item">
+					  <a class="nav-link active" href="index.html">HOME</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="pages/contato.html">CONTATO</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="pages/sobre.html">SOBRE</a>
+					</li>
+				  </ul>
 
-		<main>
-			<div class="centralizar">
-				<aside>
-					<h2>aside</h2>
-				</aside>
-				<section>
-					<h2>section</h2>
-				</section>
-			</div>
-		</main>
+				<button class="btn"><i class="fa-solid fa-circle-half-stroke"></i></button>
+			</nav>
+		</div>
+	</header>
 
-		<footer class="rodape">
-			<div class="centralizar">
-				<a
-					title="GitHub"
-					href="https://github.com/laurourbano"
-					target="_blank"
-				>
+	<main>
+		<div class="container-fluid">
+			<aside>
+				<h2>aside</h2>
+			</aside>
+			<section>
+				<h2>section</h2>
+			</section>
+		</div>
+	</main>
+
+	<footer>
+		<div class="container-fluid">
+			<button type="button" class="btn btn-light">
+				<a title="GitHub" href="https://github.com/laurourbano" target="_blank">
 					<i class="fa fa-github" aria-hidden="true"></i>
 				</a>
-				<a
-					title="LinkedIn"
-					ref="https://www.linkedin.com/in/laurourbano"
-					target="_blank"
-				>
+			</button>
+			<button type="button" class="btn btn-light">
+				<a title="LinkedIn" href="https://www.linkedin.com/in/laurourbano" target="_blank">
 					<i class="fa fa-linkedin-square" aria-hidden="true"></i>
 				</a>
-				<a
-					title="Twitter"
-					href="https://twitter.com/UrbanoOtavio"
-					target="_blank"
-				>
-					<i class="fa fa-twitter" aria-hidden="true"></i>
+			</button>
+
+			<button type="button" class="btn btn-light">
+				<a title="Twitter" href="https://twitter.com/UrbanoOtavio" target="_blank">
+					<i class="fa fa-twitter-square" aria-hidden="true"></i>
 				</a>
-				<a
-					title="Instagram"
-					href="https://www.instagram.com/lauro_otavio/"
-					target="_blank"
-				>
+			</button>
+
+			<button type="button" class="btn btn-light">
+				<a title="Instagram" href="https://www.instagram.com/lauro_otavio/" target="_blank">
 					<i class="fa fa-instagram" aria-hidden="true"></i>
 				</a>
-			</div>
-		</footer>
-	</body>
+			</button>
+
+		</div>
+	</footer>
+</body>
+
 </html>

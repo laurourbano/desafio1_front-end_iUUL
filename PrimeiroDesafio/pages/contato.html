@@ -33,7 +33,7 @@
 
 	<body>
 		<header class="cabecalho">
-			<div class="centralizar">
+			<div class="container-fluid">
 				<div>
 					<a class="linkLogo" href="../index.html">
 						<img
@@ -44,16 +44,26 @@
 						<h1>Portifólio | Lauro</h1>
 					</a>
 				</div>
-				<nav class="linksNavegacao">
-					<a class="botao" href="../index.html">HOME</a>
-					<a class="botao" id="destaque" href="contato.html">CONTATO</a>
-					<a class="botao" href="sobre.html">SOBRE</a>
+				<nav class="nav">
+					<ul class="nav nav-pills">
+						<li class="nav-item">
+						  <a class="nav-link active" href="index.html">HOME</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" href="pages/contato.html">CONTATO</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" href="pages/sobre.html">SOBRE</a>
+						</li>
+					  </ul>
+	
+					<button class="btn"><i class="fa-solid fa-circle-half-stroke"></i></button>
 				</nav>
 			</div>
 		</header>
 
 		<main>
-			<div class="centralizar">
+			<div class="container-fluid">
 				<aside>
 					<h2>Contato</h2>
 					<form action="POST">
@@ -70,8 +80,8 @@
 
 
 		<footer class="rodape">
-      <div class="centralizar">
-			<a
+			<div class="container-fluid">
+				<a
 				title="GitHub"
 				href="https://github.com/laurourbano"
 				target="_blank"

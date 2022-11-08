@@ -1,104 +1,48 @@
 :root {
   --fundo: #123;
-  --corRosa: #d1b;
-  --corFontePadrao: #fff;
-  --fontePadrao: 1rem;
-  --fonteGrande: 1.3rem;
-  --fontMedia: 1.1rem
-}
+  --corTextoPadrao: #f1f2f3;
+  --fontePequena: 1em;
+  --fonteMedia: 1.1em;
+  --fonteGrande: 1.3em
 
-* {
+}
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-decoration: none;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  outline: none;
 }
-
-body {
-  width: 100%;
-  height: calc(100vh - .5rem);
+body{
   background-color: var(--fundo);
-  color: var(--corFontePadrao);
+  color:var(--corTextoPadrao);
+}
+a{
+  text-decoration: none;
+  color: var(--corTextoPadrao)
+}
+i{
+  font-size: var(--fonteGrande);
+  color:#abc;
 }
 
-.centralizar {
-  display: flex;
+#destaque {
+  color: var(--fundo);
+  background-color:
+  var(--corTextoPadrao);
+}
+
+.centralizar{
   width: 90%;
   margin: 0 auto;
 }
 
-.cabecalho {
-  font-size: 1.1rem;
-}
-
-.cabecalho div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: .5rem;
-  margin-bottom: .5rem;
-}
-
-.linkLogo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.linkLogo h1 {
-  margin-left: 1rem;
-  color: var(--corFontePadrao);
-}
-
-.cabecalho nav a, .rodape a {
-  color: var(--corFontePadrao);
-  font-size: var(--fonteGrande);
-  padding: 10px 45px;
-}
-
-.cabecalho nav a span:hover, .rodape a:hover {
-  opacity: 80%;
-  transition: 1s;
-  border-bottom: 1px solid #fff;
-}
-
-#destaque {
-  background-color: var(--corFontePadrao);
-  color: #123;
-  border-radius: 6px;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .logoImg {
-  width: 4em;
-  height: 4em;
-  filter: opacity(80%);
-  border-radius: 10%;
+  width:4em;
+  filter: brightness(150%);
+  opacity: 70%;
 }
 
-main h2 {
-  font-size: var(--fontePadrao);
-}
-
-.rodape div {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  bottom: 0;
-  border-top: 1px solid #fff;
-}
-
-.rodape div i {
-  font-size: 2em;
-  color: var(--corFontePadrao);
-  margin: 1rem;
+.linksNavegacao a {
+  padding: 15px 35px;
+  border-radius: 15px;
 }

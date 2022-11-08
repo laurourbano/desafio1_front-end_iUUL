@@ -3,7 +3,8 @@
   --corRosa: #d1b;
   --corFontePadrao: #fff;
   --fontePadrao: 1rem;
-  --fonteGrande: 1.1rem;
+  --fonteGrande: 1.3rem;
+  --fontMedia: 1.1rem
 }
 
 * {
@@ -12,6 +13,7 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  outline: none;
 }
 
 body {
@@ -28,8 +30,7 @@ body {
 }
 
 .cabecalho {
-  font-size: var(--fonteGrande);
-  border-bottom: 1px solid #fff;
+  font-size: 1.1rem;
 }
 
 .cabecalho div {
@@ -54,13 +55,13 @@ body {
 .cabecalho nav a, .rodape a {
   color: var(--corFontePadrao);
   font-size: var(--fonteGrande);
-  padding: 15px 35px;
+  padding: 10px 45px;
 }
 
-.cabecalho nav a:hover, .rodape a:hover {
+.cabecalho nav a span:hover, .rodape a:hover {
   opacity: 80%;
-  border-bottom: 1px solid #fff;
   transition: 1s;
+  border-bottom: 1px solid #fff;
 }
 
 #destaque {
@@ -82,7 +83,11 @@ body {
   border-radius: 10%;
 }
 
-.rodape {
+main h2 {
+  font-size: var(--fontePadrao);
+}
+
+.rodape div {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -92,7 +97,7 @@ body {
   border-top: 1px solid #fff;
 }
 
-.rodape i {
+.rodape div i {
   font-size: 2em;
   color: var(--corFontePadrao);
   margin: 1rem;

@@ -3,8 +3,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif, Arial, Helvetica;
-}
 
-a {
+}
+//*
+i, a {
   border-radius: 6px;
+  color:#999;
+  text-decoration: none;
+  outline: none;
+
 }

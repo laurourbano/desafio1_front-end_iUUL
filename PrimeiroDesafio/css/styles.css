@@ -1,36 +1,6 @@
-/*:root {
-  --fundo: #123;
-  --corTextoPadrao: #f1f2f3;
-  --fontePequena: 1em;
-  --fonteMedia: 1.1em;
-  --fonteGrande: 1.3em
-
-}
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif, Arial, Helvetica;
 }
-body{
-  background-color: var(--fundo);
-  color:var(--corTextoPadrao);
-}
-a{
-  text-decoration: none;
-  color: var(--corTextoPadrao)
-}
-i{
-  font-size: var(--fonteGrande);
-  color:#abc;
-}
-
-.centralizar {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.botao {
-  padding: 15px 35px;
-  border-radius: 15px;
-}*/

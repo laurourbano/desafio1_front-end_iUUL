@@ -5,11 +5,24 @@
   font-family: 'Poppins', sans-serif, Arial, Helvetica;
 
 }
-//*
-i, a {
-  border-radius: 6px;
-  color:#999;
-  text-decoration: none;
-  outline: none;
 
+body {
+  background-color: #343a40;
+  width: 100%;
+  height: 100vh;
+}
+
+.cabecalho {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 5px;
+}
+
+.rodape {
+  border-top: 1px solid #fff;
+  margin-top: 5px;
+}
+
+.rodape button i {
+  font-size: 2em;
+  color: white;
 }

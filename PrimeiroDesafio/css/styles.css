@@ -16,8 +16,13 @@ body {
   margin-bottom: 5px;
 }
 
+.conteudo {
+  min-height: 700px;
+}
+
 .rodape {
   margin-top: 5px;
+  height: 200px;
 }
 
 .rodape button i {
@@ -25,7 +30,7 @@ body {
 }
 
 .carousel-item img {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   object-fit: contain;
 }

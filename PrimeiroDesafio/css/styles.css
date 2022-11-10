@@ -13,16 +13,19 @@ body {
 }
 
 .cabecalho {
-  border-bottom: 1px solid #fff;
   margin-bottom: 5px;
 }
 
 .rodape {
-  border-top: 1px solid #fff;
   margin-top: 5px;
 }
 
 .rodape button i {
   font-size: 2em;
-  color: white;
+}
+
+.carousel-item img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
 }

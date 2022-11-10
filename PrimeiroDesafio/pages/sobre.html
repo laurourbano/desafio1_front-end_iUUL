@@ -27,7 +27,7 @@
 		<nav class="navbar navbar-dark bg-dark cabecalho position-sticky sticky-top border-bottom">
 			<div class="container-fluid">
 				<nav>
-					<a class="navbar-brand" href="../index.html">
+					<a class="navbar-brand text-secondary" href="../index.html">
 						<img src="../assets/favicon/desenvolvimento-web.png" width="30" height="30" class="d-inline-block align-top" alt="logo" />
 						Portifolio
 					</a>
@@ -59,7 +59,7 @@
 		</nav>
 		<!--Conteúdo-->
 		<!--Carrossel-->
-		<div class="container-fluid mt-2">
+		<div class="container-fluid mt-2 conteudo">
 			<div id="carouselExampleIndicators" class="carousel slide mb-2" data-ride="carousel">
 				<ol class="carousel-indicators">
 					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -87,14 +87,18 @@
 				</a>
 			</div>
 			<!--Videos-->
-			<div class="embed-responsive embed-responsive-16by9">
-				<iframe class="embed-responsive-item" src="../assets/videos/pexels-cottonbro-10034411.mp4" allowfullscreen></iframe>
-			</div><br>
-			<div class="embed-responsive embed-responsive-16by9">
-				<iframe class="embed-responsive-item" src="../assets/videos/production ID_5078580.mp4" allowfullscreen></iframe>
+			<div class="row">
+				<div class="col-sm">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" src="../assets/videos/pexels-cottonbro-10034411.mp4" allowfullscreen></iframe>
+					</div><br>
+				</div>
+				<div class="col-sm">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" src="../assets/videos/production ID_5078580.mp4" allowfullscreen></iframe>
+					</div>
+				</div>				
 			</div>
-			<!--Criação-->
-			<small class="text-light d-flex justify-content-center"> Página criada por Lauro Otávio Urbano</small>
 		</div>
 
 		<!--Rodapé-->
@@ -123,6 +127,9 @@
 					</button>
 				</div>
 			</div>
+						<!--Criação-->
+						<small class="text-light d-flex justify-content-center"> Página criada por Lauro Otávio Urbano</small>
+
 		</nav>
 
 		<!-- JavaScript-->

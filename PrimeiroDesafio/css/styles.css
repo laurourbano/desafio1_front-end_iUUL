@@ -6,13 +6,10 @@
 }
 
 body {
-  background-color: #232629;
+  background-color: #343A40;
   width: 100%;
-  height: 100vh;
 }
-.title {
-  color: red;
-}
+
 span {
   display: flex;
   font-size: 1em;
@@ -20,20 +17,19 @@ span {
 
 .cabecalho {
   margin-bottom: 5px;
-  min-height: 8em;
+  min-height: 4em;
 }
 
 .conteudo {
-  min-height: 20em;
+  min-height: 25em;
 }
 
 .rodape {
-  margin-top: 5px;
-  min-height: 8em;
+  min-height: 4em;
 }
 
 .rodape button i {
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .carousel-item img {

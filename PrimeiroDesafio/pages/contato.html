@@ -25,9 +25,9 @@
 		<nav class="navbar navbar-dark bg-dark cabecalho position-sticky sticky-top border-bottom">
 				<div class="container-fluid">
 				<nav>
-					<a class="navbar-brand text-secondary" href="../index.html">
-						<img src="../assets/favicon/desenvolvimento-web.png" width="30" height="30" class="d-inline-block align-top" alt="logo" />
-						Portifolio
+					<spna class="navbar-brand d-sm-flex" href="../index.html">
+						<img src="../assets/favicon/desenvolvimento-web.png" width="80" height="80" class="d-inline-block align-top" alt="logo" />
+						<span>Porti<span class="title">folio</span></span>
 					</a>
 				</nav>
 
@@ -57,60 +57,32 @@
 		</nav>
 		<!--Conteúdo-->
 		<!---->
-		<div class="container-fluid conteudo">
-			<div class="card-deck">
-				<div class="card">
-					<img class="card-img-top" src="../assets/img/logo.jpg" alt="Imagem de capa do card" />
-					<div class="card-body">
-						<h5 class="card-title">Título do card</h5>
-						<p class="card-text">
-							Este é um card mais longo com suporte a texto
-							embaixo, que funciona como uma introdução a um
-							conteúdo adicional. Este conteúdo é um pouco maior.
-						</p>
-						<p class="card-text">
-							<small class="text-muted"
-								>Atualizados 3 minutos atrás</small
-							>
-						</p>
-					</div>
+		<div class="container conteudo mt-2 bg-danger mx-auto mt-5 mb-5">
+			<form class="text-light">
+				<div class="col-7 form-group">
+						<label for="nome">Nome Completo</label>
+						<input type="nome" class="form-control" id="nome" placeholder="Seu nome completo" required>
 				</div>
-				<div class="card">
-					<img class="card-img-top" src="../assets/img/logo.jpg" alt="Imagem de capa do card" />
-					<div class="card-body">
-						<h5 class="card-title">Título do card</h5>
-						<p class="card-text">
-							Este é um card com suporte a texto embaixo, que
-							funciona como uma introdução a um conteúdo
-							adicional.
-						</p>
-						<p class="card-text">
-							<small class="text-muted"
-								>Atualizados 3 minutos atrás</small
-							>
-						</p>
-					</div>
-				</div>
-				<div class="card">
-					<img class="card-img-top" src="../assets/img/logo.jpg" alt="Imagem de capa do card" />
-					<div class="card-body">
-						<h5 class="card-title">Título do card</h5>
-						<p class="card-text">
-							Este é um card maior com suporte a texto embaixo,
-							que funciona como uma introdução a um conteúdo
-							adicional. Este card tem o conteúdo ainda maior que
-							o primeiro, para mostrar a altura igual, em ação.
-						</p>
-						<p class="card-text">
-							<small class="text-muted"
-								>Atualizados 3 minutos atrás</small
-							>
-						</p>
-					</div>
-				</div>
-			</div>
-			<small class="text-light d-flex justify-content-center"> Página criada por Lauro Otávio Urbano</small>
 
+				<div class="d-flex align-middle">
+					<div class="col-4 form-group">
+						<label for="email">Endereço de email</label>
+						<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Seu email" required>
+						<small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+					</div>
+					<div class="col-3 form-group">
+						<label for="telefone">Telefone</label>
+						<input type="tel" class="form-control" id="telefone" placeholder="Seu telefone" required>
+					</div>					
+				</div>
+				<div class="col-7 form-group">
+					<label for="mensagem">Mensagem</label>
+					<textarea type="text" class="form-control" id="mensagem" placeholder="Digite aqui sua mensagem" required></textarea>
+				</div>
+				<div class="col-7">
+					<button type="submit" class="btn btn-primary btn-block">Enviar</button>
+				</div>		
+			</form>
 		</div>
 		<!--Rodapé-->
 		<nav class="navbar navbar-dark bg-dark rodape border-top mb-2">
@@ -130,14 +102,10 @@
 						<a href="https://www.instagram.com/lauro_otavio/" target="_blank"
 							rel="noopener noreferrer"><i class="fa-brands fa-instagram text-secondary"></i></a>
 					</button>
-					<button type="button" class="btn bg-dark rounded-circle">
-						<a class="text-secondary" href="https://www.flaticon.com/br/icones-gratis/design-do-site" target="_blank" title="Design do site ícones criados por smashingstocks - Flaticon"><small>Flaticon</small></a>
-					</button>
-					<button type="button" class="btn bg-dark rounded-circle">
-						<a class="text-secondary" href="https://pixabay.com/pt/users/cesarsosazg-21667200/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6262280"><small>Pixabay</small></a>
-					</button>
+
 				</div>
 			</div>
+				<small class="text-light mx-auto"> Página criada por Lauro Otávio Urbano</small>
 		</nav>
 
 		<!-- JavaScript-->

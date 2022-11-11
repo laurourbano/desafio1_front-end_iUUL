@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif, Arial, Helvetica;
-
 }
 
 body {
@@ -11,18 +10,26 @@ body {
   width: 100%;
   height: 100vh;
 }
+.title {
+  color: red;
+}
+span {
+  display: flex;
+  font-size: 50px;
+}
 
 .cabecalho {
   margin-bottom: 5px;
+  height: 8em;
 }
 
 .conteudo {
-  min-height: 700px;
+  min-height: 20em;
 }
 
 .rodape {
   margin-top: 5px;
-  height: 200px;
+  height: 8em;
 }
 
 .rodape button i {
@@ -30,7 +37,9 @@ body {
 }
 
 .carousel-item img {
-  width: 400px;
-  height: 400px;
+  width: 25em;
+  max-width: 50em;
+  height: 25em;
+  max-height: 50em;
   object-fit: contain;
 }

@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #343a40;
+  background-color: #232629;
   width: 100%;
   height: 100vh;
 }
@@ -20,7 +20,7 @@ span {
 
 .cabecalho {
   margin-bottom: 5px;
-  height: 8em;
+  min-height: 8em;
 }
 
 .conteudo {
@@ -29,7 +29,7 @@ span {
 
 .rodape {
   margin-top: 5px;
-  height: 8em;
+  min-height: 8em;
 }
 
 .rodape button i {
@@ -37,9 +37,9 @@ span {
 }
 
 .carousel-item img {
-  width: 25em;
+  width: 20em;
   max-width: 50em;
-  height: 25em;
+  height: 20em;
   max-height: 50em;
   object-fit: contain;
 }

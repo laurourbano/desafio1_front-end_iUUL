@@ -25,13 +25,13 @@ span {
 .navbar-nav li {
   text-align: center;
   width: 8em;
-  border-radius: 14px;
+  border-radius: 1em;
 }
 
 .navbar-nav li a {
   text-align: center;
   width: 8em;
-  border-radius: 14px;
+  border-radius: 1em;
 }
 
 .conteudo {

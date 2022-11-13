@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif, Arial, Helvetica;
 }
+a{
+  text-decoration: none;
+}
 
 body {
   background-color: #343A40;
@@ -16,14 +19,29 @@ span {
 }
 
 .cabecalho {
-  margin-bottom: 5px;
+  margin-bottom: 0;
   min-height: 4em;
+}
+.navbar-nav li {
+  text-align: center;
+  width: 8em;
+  border-radius: 14px;
+}
+
+.navbar-nav li a {
+  text-align: center;
+  width: 8em;
+  border-radius: 14px;
 }
 
 .conteudo {
   min-height: 25em;
 }
-
+.card-img-top {
+  height: 10em;
+  width: 10em;
+  border-radius: 2em;
+}
 .rodape {
   min-height: 4em;
 }

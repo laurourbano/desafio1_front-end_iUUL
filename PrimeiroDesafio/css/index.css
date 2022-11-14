@@ -11,7 +11,8 @@
 }
 
 .estilo-hover:hover{
-  background-color: white;
+  display: flex;
+  border: 1px solid white;
 }
 
 @media screen and (max-width:765px) {

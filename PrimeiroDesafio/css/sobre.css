@@ -1,0 +1,7 @@
+.carousel-item img {
+  max-width: 55em;
+  max-height: 33em;
+  width: auto;
+  height: 22em;
+  background-size: contain;
+}

@@ -16,6 +16,8 @@
 		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
 	<!--⁡⁢⁣⁢CSS global do projeto⁡-->
 	<link rel="stylesheet" href="css/styles.css" />
+	<!--⁡⁢⁣⁢CSS Página Principal-->
+	<link rel="stylesheet" href="css/index.css" />
 	<!--⁡⁢⁣⁢Biblioteca FontAwesome⁡-->
 	<script src="https://kit.fontawesome.com/abaa35b434.js" crossorigin="anonymous"></script>
 
@@ -24,7 +26,7 @@
 
 <body>
 	<!--⁡⁢⁣⁢Cabeçalho⁡-->
-	<nav class="navbar navbar-dark bg-dark cabecalho position-sticky sticky-top border-bottom">
+	<nav class="navbar navbar-dark cabecalho position-sticky sticky-top border-bottom">
 		<div class="container">
 			<nav>
 				<a class="navbar-brand" href="index.html">
@@ -61,59 +63,67 @@
 	<main class="conteudo mt-5 mb-5">
 		<div class="container">
 			<div class="row text-light">
-				<div class="col m-2 p-2 align-self-center">
-					<p class="">Neste link você poderá perceber todo meu empenho em aprender cada vez mais.</p>
+				<div class="col-md d-flex">
+					<p class="card-text align-self-center">Neste link você poderá perceber todo meu empenho em aprender cada vez
+						mais.</p>
 				</div>
-				<div class="col m-2 p-2 bg-light text-center align-self-center ">
-					<a href="https://github.com/laurourbano" target="_blank" class="text-dark">
-						<h2>Github</h2>
-						<p>Veja meus projetos!</p>
+				<div class="col-md">
+					<a href="https://github.com/laurourbano" target="_blank" class="text-light">
+						<button class="btn btn-link text-light border w-100 fundo-cartoes fundo-cartoes">
+							<h2 class="card-title">Github</h2>
+							<p class="card-text">Veja meus projetos!</p>
+						</button>
 					</a>
 				</div>
 			</div>
 			<div class="row text-light">
-				<div class="col m-2 p-2 align-self-center">
-					<p>Sempre gostei de tecnologia e agora estou me dedicando a aprender a programar.</p>
+				<div class="col-md d-flex">
+					<p class="card-text align-self-center">Sempre gostei de tecnologia e agora estou me dedicando a aprender a
+						programar.</p>
 				</div>
-				<div class="col m-2 p-2 bg-light text-center align-self-center order-md-first">
-					<a href="https://www.linkedin.com/in/admeadslauro/" target="_blank" class="text-dark">
-						<h2>Linkedin</h2>
-						<p>Vem ver minha carreira profissional!</p>
+				<div class="col-md order-md-first">
+					<a href="https://www.linkedin.com/in/admeadslauro/" target="_blank" class="text-light">
+						<button class="btn btn-link text-light border w-100 fundo-cartoes">
+							<h2 class="card-title">Linkedin</h2>
+							<p class="card-text">Vem ver minha carreira profissional!</p>
+						</button>
 					</a>
 				</div>
 			</div>
 			<div class="row text-light">
-				<div class="col m-2 p-2 align-self-center">
-					<p class="">
+				<div class="col-md d-flex">
+					<p class="card-text align-self-center">
 						Um pouco de que eu sou e o que eu gosto de fazer no meu dia-a-dia!
 					</p>
 				</div>
-				<div class="col m-2 p-2 bg-light text-center align-self-center">
-					<a href="https://www.instagram.com/lauro_otavio/" target="_blank" class="text-dark">
-						<h2>Instagram</h2>
-						<p>Ou mais do meu dia-a-dia ;)</p>
+				<div class="col-md text-center">
+					<a href="https://www.instagram.com/lauro_otavio/" target="_blank" class="text-light">
+						<button class="btn btn-link text-light border w-100 fundo-cartoes">
+							<h2 class="card-title">Instagram</h2>
+							<p class="card-text">Ou mais do meu dia-a-dia ;)</p>
+						</button>
 					</a>
 				</div>
 			</div>
 		</div>
 	</main>
 	<!--⁡⁢⁣⁢Rodapé⁡-->
-	<nav class="navbar navbar-dark bg-dark rodape border-top mb-2">
+	<footer class="navbar navbar-dark rodape border-top mt-2">
 		<div class="container justify-content-center">
-			<div class="btn-group " role="group" aria-label="Links">
-				<button type="button " class="btn bg-dark rounded-circle">
+			<div class="btn-group" role="group" aria-label="Links">
+				<button type="button" class="btn bg-transparent rounded-circle botao">
 					<a href="https://www.linkedin.com/in/laurourbano" target="_blank" rel="noopener noreferrer"><i
 							class="fa-brands fa-linkedin-in text-info"></i></a>
 				</button>
-				<button type="button" class="btn bg-dark rounded-circle">
+				<button type="button" class="btn bg-transparent rounded-circle botao">
 					<a href="https://github.com/laurourbano" target="_blank" rel="noopener noreferrer"><i
 							class="fa-brands fa-github text-light"></i></a>
 				</button>
-				<button type="button" class="btn bg-dark rounded-circle">
+				<button type="button" class="btn bg-transparent rounded-circle botao">
 					<a href="https://twitter.com/UrbanoOtavio" target="_blank" rel="noopener noreferrer"><i
 							class="fa-brands fa-square-twitter text-info"></i></a>
 				</button>
-				<button type="button" class="btn bg-dark rounded-circle">
+				<button type="button" class="btn bg-transparent rounded-circle botao">
 					<a href="https://www.instagram.com/lauro_otavio/" target="_blank" rel="noopener noreferrer"><i
 							class="fa-brands fa-instagram text-danger"></i></a>
 				</button>
@@ -121,7 +131,7 @@
 			<!--⁡⁢⁣⁢Criação⁡-->
 			<small class="text-light"> Página criada por Lauro Otávio Urbano</small>
 		</div>
-	</nav>
+	</footer>
 	<!-- ⁡⁢⁣⁢JavaScript externo⁡-->
 	<script src="../PrimeiroDesafio/js/script.js"></script>
 	<!-- ⁡⁢⁣⁢jQuery primeiro, depois Popper.js, depois Bootstrap JS⁡ -->

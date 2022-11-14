@@ -1,7 +1,17 @@
 .carousel-item img {
-  max-width: 55em;
+  max-width: 100%;
   max-height: 33em;
   width: auto;
   height: 22em;
   background-size: contain;
+}
+
+@media screen and (max-width:765px) {
+  .carousel-item img {
+    max-width: 100%;
+    max-height: 10em;
+    width: auto;
+    height: 22em;
+    background-size: contain;
+  }
 }

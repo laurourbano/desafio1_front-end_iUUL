@@ -10,6 +10,10 @@
   margin: 2em 0;
 }
 
+.estilo-hover:hover{
+  background-color: white;
+}
+
 @media screen and (max-width:765px) {
   .fundo-cartoes{
     height: 6em;
